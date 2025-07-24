@@ -16,9 +16,6 @@ function calcularCoeficiente() {
   document.getElementById("resultado").innerText =
     `Coeficiente: ${coeficiente.toFixed(7)}`;
 
-  document.getElementById("resultadoSpf").innerText =
-  `Coeficiente com SPF: ${coeficienteSpf.toFixed(7)}`;
-
 }
 
 
